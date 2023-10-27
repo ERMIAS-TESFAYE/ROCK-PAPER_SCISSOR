@@ -116,8 +116,8 @@ function result(userChoice, CC) {
 }
 
 function score(userChoice, CC) {
-  document.querySelector(
-    '#score'
-  ).innerHTML = `win: ${resetScore.win}    lose: ${resetScore.lose}   tie :${resetScore.tie}
+    document.querySelector(
+        '#score'
+    ).innerHTML = `win: ${resetScore.win}    lose: ${resetScore.lose}   tie :${resetScore.tie}
     `;
 }
